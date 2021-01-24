@@ -12,15 +12,19 @@
 	<extension point="kodi.gameclient"
 			library_@PLATFORM@="@LIBRARY_FILENAME@">
 		<platforms></platforms>
-		<extensions></extensions>
+		<extensions>adf|adz|dms|fdi|ipf|hdf|hdz|lha|slave|info|cue|ccd|nrg|mds|iso|uae|m3u|zip|7z</extensions>
 		<supports_vfs>false</supports_vfs>
-		<supports_standalone>false</supports_standalone>
+		<supports_standalone>true</supports_standalone>
 		<supports_keyboard>false</supports_keyboard>
 		<supports_mouse>false</supports_mouse>
 	</extension>
 	<extension point="xbmc.addon.metadata">
 		<summary lang="en">Amiga (UAE4ARM)</summary>
-		<description>UAE stands for the Ubiquitous Amiga Emulator. UAE4ARM is optimized for Android and the Raspberry Pi.</description>
+		<description>UAE stands for the Ubiquitous Amiga Emulator. UAE4ARM is optimized for Android and the Raspberry Pi.
+
+Most games require a version of the Amiga Kickstart ROM. However, some old games will work with the built-in ROM emulation.
+
+Supported files: .adf, .adz, .dms, .fdi, .ipf, .hdf, .hdz, .lha, .slave, .info, .cue, .ccd, .nrg, .mds, .iso, .uae, .m3u, .zip, .7z</description>
 		<license>GPLv2</license>
 		<platform>@PLATFORM@</platform>
 	</extension>

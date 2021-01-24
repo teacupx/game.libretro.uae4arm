@@ -1,1 +1,1 @@
-uae4arm https://github.com/libretro/uae4arm-libretro master
+uae4arm https://github.com/Chips-fr/uae4arm-rpi/archive/34f3e08b753a9480e457fbd050c20037fc7cdc30.zip
